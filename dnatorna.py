@@ -17,7 +17,7 @@ def rna(seq):
         return seq
 
 def reverse_rna_complement(seq):
-    """Convert a DNA sequence into its reverse comlement as RNA"""
+    """Convert a DNA sequence into its reverse comlement as RNA, changed doc string"""
     #Determine if the original sequence was uppercase
     seq_upper = seq.isupper()
 
